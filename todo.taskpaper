@@ -1,0 +1,4 @@
+- I need to build a final JS script that'll take the selected text from popclip, pass it to a function that'll run Prettier, and console.log() the final output
+- so make a src dir that'll contain all the Prettier stuff
+- make a webpack config that'll build the final script to the popclipextension dir
+- might have to do some additional appending to the webpack'ed script to expose the correct functions?
