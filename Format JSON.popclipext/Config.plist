@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Version</key>
+  <integer>2</integer>
+  <key>Extension Name</key>
+  <string>Format JSON</string>
+  <key>Extension Identifier</key>
+  <string>com.erikphansen.popclip.extension.format-json</string>
+  <key>Actions</key>
+  <array>
+    <dict>
+      <key>After</key>
+      <string>paste-result</string>
+      <key>Title</key>
+      <string>Date</string>
+      <key>Image File</key>
+      <string>calendar-icon.png</string>
+      <key>Script Interpreter</key>
+      <string>/usr/local/bin/node</string>
+      <key>Shell Script File</key>
+      <string>format-json.js</string>
+    </dict>
+  </array>
+  <key>Extension Description</key>
+  <string>Replaces unformatted JSON with JSON formatted by Prettier</string>
+  <key>Credits</key>
+  <dict>
+    <key>Name</key>
+    <string>Erik P. Hansen</string>
+    <key>Link</key>
+    <string>http://erikphansen.com</string>
+  </dict>
+</dict>
+</plist>
