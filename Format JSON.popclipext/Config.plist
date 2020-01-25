@@ -15,8 +15,10 @@
       <string>paste-result</string>
       <key>Title</key>
       <string>Format JSON</string>
+      <key>Regular Expression</key>
+      <string>^(\{[\s\S]+\}|\[[\s\S]+\])$</string>
       <key>Image File</key>
-      <string>calendar-icon.png</string>
+      <string>json-icon.png</string>
       <key>Script Interpreter</key>
       <string>/usr/local/bin/node</string>
       <key>Shell Script File</key>
