@@ -18,11 +18,11 @@
       <key>Regular Expression</key>
       <string>^(\{[\s\S]+\}|\[[\s\S]+\])$</string>
       <key>Image File</key>
-      <string>json-icon.png</string>
+      <string>icon.png</string>
       <key>Script Interpreter</key>
       <string>/usr/local/bin/node</string>
       <key>Shell Script File</key>
-      <string>format-json.js</string>
+      <string>main.js</string>
     </dict>
   </array>
   <key>Long Running</key>
