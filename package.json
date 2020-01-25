@@ -8,6 +8,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:json": "rollup --config format-json-rollup.config.js",
+    "build:javascript": "rollup --config format-javascript-rollup.config.js",
+    "build:all": "npm run build:json; npm run build:javascript"
   },
   "keywords": [],
   "author": "",
