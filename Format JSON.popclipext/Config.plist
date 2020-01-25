@@ -14,7 +14,7 @@
       <key>After</key>
       <string>paste-result</string>
       <key>Title</key>
-      <string>Date</string>
+      <string>Format JSON</string>
       <key>Image File</key>
       <string>calendar-icon.png</string>
       <key>Script Interpreter</key>
@@ -23,6 +23,8 @@
       <string>format-json.js</string>
     </dict>
   </array>
+  <key>Long Running</key>
+  <true/>
   <key>Extension Description</key>
   <string>Replaces unformatted JSON with JSON formatted by Prettier</string>
   <key>Credits</key>
